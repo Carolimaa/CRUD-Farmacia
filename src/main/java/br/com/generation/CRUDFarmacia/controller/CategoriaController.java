@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.generation.CRUDFarmacia.model.Categoria;
 import br.com.generation.CRUDFarmacia.repository.CategoriaRepository;
-
 @RestController
 @RequestMapping("/categoria")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
